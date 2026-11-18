@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Sayfa-1" id="TGD8KMIkg-UXG1c2m7RW">
+    <mxGraphModel dx="1241" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5HXVdFhjHho-oyk20Mvn-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Kitap&lt;div&gt;&lt;br&gt;&lt;div&gt;-ad String&lt;/div&gt;&lt;div&gt;-yazar String&lt;/div&gt;&lt;/div&gt;&lt;div&gt;-isbn String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+bilgiGoster()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="207" x="140" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5HXVdFhjHho-oyk20Mvn-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="KitapKopyasi&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-kopyaId String&lt;/div&gt;&lt;div&gt;-durum String&lt;/div&gt;&lt;div&gt;-kitap Kitap&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+durumYazdir()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="207" x="520" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5HXVdFhjHho-oyk20Mvn-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Kullanici&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-ad String&lt;/div&gt;&lt;div&gt;-ogrenciNo String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;bigiYazdir()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="207" x="140" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="5HXVdFhjHho-oyk20Mvn-5" edge="1" parent="1" source="5HXVdFhjHho-oyk20Mvn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="5HXVdFhjHho-oyk20Mvn-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5HXVdFhjHho-oyk20Mvn-6" edge="1" parent="1" source="5HXVdFhjHho-oyk20Mvn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="5HXVdFhjHho-oyk20Mvn-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5HXVdFhjHho-oyk20Mvn-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="OduncKaydi&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-kullanici Kullanici&lt;/div&gt;&lt;div&gt;-kopya KitapKopyasi&lt;/div&gt;&lt;div&gt;-tarih String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+oduncBilgisiYazdir&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="207" x="520" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="5HXVdFhjHho-oyk20Mvn-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="80" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="5HXVdFhjHho-oyk20Mvn-8" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="5HXVdFhjHho-oyk20Mvn-7" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.1522" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="840" />
+            </Array>
+            <mxPoint x="70" y="920" as="sourcePoint" />
+            <mxPoint x="145" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5HXVdFhjHho-oyk20Mvn-9" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="920" as="sourcePoint" />
+            <mxPoint x="120" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5HXVdFhjHho-oyk20Mvn-10" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" x="0.3052" as="geometry">
+            <Array as="points">
+              <mxPoint x="117.5" y="707.5" />
+            </Array>
+            <mxPoint x="70" y="770" as="sourcePoint" />
+            <mxPoint x="170" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5HXVdFhjHho-oyk20Mvn-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;Kitapları Listele&lt;/font&gt;" vertex="1">
+          <mxGeometry height="110" width="290" x="360" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="5HXVdFhjHho-oyk20Mvn-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Kitap Kopyası Sorgula&lt;/font&gt;" vertex="1">
+          <mxGeometry height="110" width="290" x="360" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="5HXVdFhjHho-oyk20Mvn-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;Kitap Ödünç Al&lt;/font&gt;" vertex="1">
+          <mxGeometry height="110" width="290" x="360" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="5HXVdFhjHho-oyk20Mvn-14" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="5HXVdFhjHho-oyk20Mvn-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="170" y="680" as="sourcePoint" />
+            <mxPoint x="280" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5HXVdFhjHho-oyk20Mvn-15" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="5HXVdFhjHho-oyk20Mvn-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="700" as="sourcePoint" />
+            <mxPoint x="350" y="775" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5HXVdFhjHho-oyk20Mvn-17" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" target="5HXVdFhjHho-oyk20Mvn-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="180" y="660" as="sourcePoint" />
+            <mxPoint x="380" y="685" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
